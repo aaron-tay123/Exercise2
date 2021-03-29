@@ -1,0 +1,28 @@
+package Exercise2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Tablets a = new Tablets (); //create new object name as a
+		System.out.println(a.Brand);
+		System.out.println(a.Type);
+		System.out.println(a.Memory);
+		System.out.println(a.Colour);
+		a.watchYoutube();
+		a.takePicture();
+		a.receiveNotification();
+		
+		System.out.println("............................");
+		
+		Tab b = new Tab(); //create new object name as b
+		System.out.println(b.Brand);
+		System.out.println(b.Type);
+		System.out.println(b.Memory);
+		System.out.println(b.Colour);
+		b.watchYoutube();
+		b.takePicture();
+		b.recieveNotification();
+		
+		
+	}
+}
